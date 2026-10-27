@@ -1,0 +1,81 @@
+{
+  "meta": { "title": "Mira · 作品集", "lang": "zh-CN" },
+  "theme": { "ground": "#F8F4F2", "ink": "#2E1D18", "accent": "#A63F62", "soft": "#F3E3E7", "muted": "#6E5A54" },
+  "qaTitle": "你可能想问",
+  "profile": {
+    "name": "Mira",
+    "roles": ["内容运营", "文案策划 · AI产品"],
+    "intro": "汉语言文学本科，两年小红书内容运营经验，用AI独立做过两款小工具。",
+    "photo": "images/photo.jpg",
+    "year": "2026"
+  },
+  "stats": [
+    { "num": "8.6万", "label": "单篇笔记最高阅读" },
+    { "num": "30+篇", "label": "千赞笔记" },
+    { "num": "2款", "label": "独立上线的AI工具" }
+  ],
+  "abilities": {
+    "title": "能力版图",
+    "nav": "能力",
+    "core": {
+      "label": "AI能力", "en": "AI",
+      "summary": "熟练使用ChatGPT、Claude进行提示词设计与AI辅助开发。",
+      "subs": [
+        { "name": "产品设计", "desc": "独立完成从需求到界面的设计，上线工具2款。" },
+        { "name": "用户思维", "desc": "从真实使用反馈出发，持续迭代功能。" },
+        { "name": "效率提升", "desc": "借助AI完成开发与测试，非技术背景独立交付。" },
+        { "name": "流程复用", "desc": "把重复工作沉淀为可复用的工作流，降低重复投入。" }
+      ]
+    },
+    "items": [
+      { "label": "内容能力", "en": "Content", "summary": "熟悉小红书内容逻辑，擅长把产品卖点转化为用户爱看的笔记。", "result": "30+篇千赞笔记" },
+      { "label": "拍剪能力", "en": "Shoot & Edit", "summary": "独立完成图文与短视频的拍摄剪辑，熟练使用剪映、Photoshop。", "result": "单条视频5万播放" },
+      { "label": "策划能力", "en": "Planning", "summary": "具备账号定位与选题规划能力，能根据品牌阶段制定内容策略。", "result": "账号三个月涨粉1万" },
+      { "label": "写作能力", "en": "Writing", "summary": "具备文案、脚本与长文写作能力，语感好，改稿快。", "result": "公众号10万+ 1篇" }
+    ]
+  },
+  "sections": [
+    {
+      "title": "AI 作品", "nav": "作品", "type": "works",
+      "works": [
+        {
+          "kicker": "网页小工具", "tag": "已上线", "title": "《小红书标题助手》",
+          "desc": "输入笔记主题，生成5个不同风格的标题，并说明各自适合的人群。",
+          "images": ["images/tool-1.jpg", "images/tool-1-data.jpg"],
+          "stats": [ { "num": "1200+", "label": "使用人次" }, { "num": "3天", "label": "从想法到上线" } ],
+          "cta": { "label": "立即试用", "link": "https://example.com" },
+          "qa": [
+            { "q": "你在这个产品中发挥了什么作用？", "a": "需求定义、交互设计、提示词撰写和调试由我负责；代码和测试由AI完成。" },
+            { "q": "设计思路", "a": "发现同事每天都在为标题发愁，就把我们平时起标题的方法整理成规则，交给AI执行。" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "内容运营", "nav": "运营", "type": "works",
+      "works": [
+        {
+          "kicker": "2024 — 至今", "title": "美妆品牌小红书运营",
+          "desc": "负责品牌账号的选题、撰稿、拍摄与投放复盘。",
+          "stats": [ { "num": "8.6万", "label": "最高单篇阅读" }, { "num": "1万", "label": "三个月涨粉" }, { "num": "多个", "label": "合作品牌" } ],
+          "qa": [ { "q": "你能做哪些工作？", "a": "账号定位策划、选题、文案撰写、拍摄剪辑等。" } ]
+        }
+      ]
+    },
+    {
+      "title": "视频样片", "nav": "视频", "type": "videos",
+      "intro": "选题、脚本、拍摄、剪辑都由我完成。",
+      "videos": [
+        { "title": "品牌种草视频", "meta": "5万播放", "cover": "images/video-1.jpg", "link": "https://example.com" },
+        { "title": "探店Vlog", "meta": "生活方式", "cover": "images/video-2.jpg", "fit": "contain" }
+      ]
+    }
+  ],
+  "contact": {
+    "headline": "Let's talk.",
+    "nav": "联系",
+    "text": "看到这里，谢谢你。想聊的话，随时找我。",
+    "rows": [ { "label": "邮箱", "value": "mira@example.com", "link": "mailto:mira@example.com" } ],
+    "resume": { "label": "点击下载简历", "file": "resume.pdf" }
+  }
+}
